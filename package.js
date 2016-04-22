@@ -10,8 +10,8 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Npm.depends ({
-    nsqjs:"0.7.12"
+Npm.depends({
+  nsqjs: "0.7.12"
 });
 
 Package.onUse(function(api) {
@@ -22,7 +22,7 @@ Package.onUse(function(api) {
   api.addFiles('client/nsqjs-client.js', 'client');
   api.export(['initReader', 'writeMessage'], 'server');
   api.export('Messages', ['client', 'server']);
-  api.export('nsq', 'server');
+  api.export('NSQ', 'server');
 });
 
 Package.onTest(function(api) {
