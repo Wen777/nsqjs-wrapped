@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'nwdev:nsqjs-wrapped',
+  name: 'swh:nsqjs-wrapped',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Wrapper for Node Module "NSQJS"',
